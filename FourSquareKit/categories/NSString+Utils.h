@@ -12,7 +12,7 @@
 
 +(NSString *)join:(NSArray *)strings andSeperator:( NSString *)separator;
 +(NSArray *)split:(NSString *)s andSeperator:(NSString *)separator;
-+(int) indexOf:(NSString *)haystack andSubString:(NSString *)needle;
++(NSUInteger) indexOf:(NSString *)haystack andSubString:(NSString *)needle;
 +(BOOL) contains:(NSString *)haystack andSubString:(NSString *)needle;
 +(BOOL) startsWith:(NSString *)haystack andSubString:( NSString *)needle;
 

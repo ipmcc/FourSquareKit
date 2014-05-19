@@ -21,7 +21,7 @@
 @property(nonatomic,strong) NSArray *photos;
 @property(nonatomic,strong) UXRFourSquareLocationModel *location;
 @property(nonatomic,strong) NSString *name;
-@property(nonatomic,strong) NSString *description;
+@property(nonatomic,strong) NSString *restaurantDescription;
 @property(nonatomic,strong) NSString *timeZone;
 @property(nonatomic,strong) NSNumber *dislike;
 @property(nonatomic,strong) NSNumber *rating;

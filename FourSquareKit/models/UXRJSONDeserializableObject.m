@@ -133,7 +133,6 @@ static NSDateFormatter *longZuluDateReFormatter = nil;
     return outDictionary;
 }
 
-
 - (NSArray *) convertToJsonSerializableArray: (NSArray *) array; {
     NSMutableArray * outArray = [[NSMutableArray alloc] init];
     // convert all the array members

@@ -31,7 +31,7 @@
         return nil;
     }
     
-    int comma = [NSString indexOf:locString andSubString:  @","];
+    NSUInteger comma = [NSString indexOf:locString andSubString:  @","];
     if (comma == -1) {
         return nil;
     }

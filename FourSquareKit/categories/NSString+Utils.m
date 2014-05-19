@@ -34,7 +34,7 @@
     return [s componentsSeparatedByString:separator];
 }
 
-+(int) indexOf:(NSString *)haystack andSubString:(NSString *)needle{
++(NSUInteger) indexOf:(NSString *)haystack andSubString:(NSString *)needle{
     NSUInteger location = [haystack rangeOfString:needle].location;
     return (location != NSNotFound) ? location : -1;
 }
